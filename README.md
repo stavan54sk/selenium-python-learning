@@ -12,3 +12,15 @@ Welcome to the Selenium Python Testing repository! Here, you will find a compreh
 - 🏗️ **Levels of Testing**  
 - 🧩 **Types of Testing**  
 - 🤖 **Test Automation Tools** 
+
+# 📘 Chapter 2: WebDriver Fundamentals  
+- 🔨 **Basic WebDriver Usage**  
+- 🏗️ **WebDriver Creation**  
+- 🧱 **WebDriver Builder**  
+- ⚙️ **WebDriverManager Builder**  
+- 📜 **WebDriver Methods**  
+- 🔍 **Locating WebElements**  
+- 🎹 **User Actions (Keyboard & Mouse Interactions)**  
+- ⏳ **Waits for Web Elements**  
+- 🆔 **Session Identifier (sessionId)**  
+- ❌ **WebDriver Disposal (close vs quit)** 
