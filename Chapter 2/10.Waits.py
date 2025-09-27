@@ -1,6 +1,4 @@
-from wsgiref.simple_server import server_version
-
-from selenium import webdriver
+# from selenium import webdriver
 from selenium.common import NoSuchElementException
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -24,7 +22,7 @@ chromedriver.implicitly_wait(10)
 # chromedriver_wait.until(expected_conditions.element_to_be_clickable((By.XPATH,'//span[text()="+"]'))).click()
 # chromedriver_wait.until(expected_conditions.element_to_be_clickable((By.XPATH,'//span[text()="1"]'))).click()
 # chromedriver_wait.until(expected_conditions.element_to_be_clickable((By.XPATH,'//span[text()="="]'))).click()
-# chromedriver_wait.until(expected_conditions.text_to_be_present_in_element((By.CSS_SELECTOR,'[class="screen"]'),'9'))
+chromedriver_wait.until(expected_conditions.text_to_be_present_in_element((By.CSS_SELECTOR,'[class="screen"]'),'9'))
 
 # #fluent_wait
 # chromedriver_wait=WebDriverWait(
