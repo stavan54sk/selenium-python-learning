@@ -16,23 +16,16 @@
 #     b=10
 #     assert a>b
 #
-# @pytest.mark.regression
+# @pytest.mark.skip
 # def test_assert_three():
 #     print("a=b")
 #     a=20
 #     b=20
 #     assert a.__eq__(b)
 #
-# @pytest.mark.regression
+# @pytest.mark.skip
 # def test_assert_four():
 #     print("fail")
 #     a=20
 #     b=10
 #     assert a.__eq__(b),"A is not equal to B"
-#
-#
-# # @pytest.mark.regression (mark test as regression)
-# # @pytest.mark.smoke (mark test as smoke)
-# # pytest -rA -m regression(execute only regression)
-# # pytest -rA -m sanity(execute only sanity)
-# # pytest -rA -m regression(execute only regression)
